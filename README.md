@@ -25,3 +25,5 @@ loginserv.php is the script that connects to the database and validates the user
 insert.php is where the member information page is made and consists of a form.
 
 insertserv.php is the script that connects to the database and inserts the user input into the database.
+
+I have also included screenshots of the unstyled pages so you can see how it looks. I suggest downloading and running insert.php or login.php to get a better idea of what's going on.
