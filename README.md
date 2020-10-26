@@ -1,7 +1,7 @@
 # FBLADB
 FBLA Database Files
 This is all the code for my updateable database
-For complete functionality, download xAMP and using myphpadmin, create a database called loginsystemfbla with two tables, Users and Members. Users will store the information of the people who are allowed to login and update member information and the table Members will store the member's information
+For complete replication, download xAMP and using myphpadmin, create a database called loginsystemfbla with two tables, Users and Members. Users will store the information of the people who are allowed to login and the Members table will store the member's information inputed by those from the Users table.
 Here are the CREATE TABLE functions for each:
   
   CREATE TABLE Users(
@@ -26,4 +26,10 @@ insert.php is where the member information page is made and consists of a form.
 
 insertserv.php is the script that connects to the database and inserts the user input into the database.
 
-I have also included screenshots of the unstyled pages so you can see how it looks. I suggest downloading and running insert.php or login.php to get a better idea of what's going on.
+login.css styles login.php.
+
+form.css page styles both insert.php and update.php.
+
+main.css styles the main.html page.
+
+I have also included screenshots of each page so you can see how it looks.
