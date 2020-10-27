@@ -1,0 +1,46 @@
+/* sets up the background */
+body {
+  margin: 0;
+  padding: 0;
+  background: url(school.jpg);
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+/* sets up the heading */
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+}
+
+/* sets up the navigation tool */
+ul{
+list-style-type: none;
+margin: 10;
+padding: 0;
+overflow: hidden;
+}
+
+li{
+float: center;
+}
+
+/* sets up the colors of the navigation tool */
+a:link, a:visited{
+display: block;
+font-weight: bold;
+color: #FFFFFF;
+background-color: #6495ED;
+width: 120px;
+text-align: center;
+padding: 20px;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+a:hover, a:active{
+background-color: gold;
+}
