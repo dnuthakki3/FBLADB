@@ -36,7 +36,7 @@ include("serv/insertserv.php"); // Include loginserv for inserting data
           <!--enter button-->
           <input type="submit" value="Enter" name="enter">
 
-    <!-- Error Message -->
+    <!-- Message -->
     <span><?php echo $message; ?></span>
 
   </body>
