@@ -1,6 +1,6 @@
 <?php
     //Connect to database
-    $conn = mysqli_connect("localhost", "root", "DnMacBook#!@1", "loginsystemfbla");
+    $conn = mysqli_connect("localhost", "[username redacted]", "[password redacted]", "[database name redacted]");
     // Check connection
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
