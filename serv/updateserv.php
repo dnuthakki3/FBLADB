@@ -15,7 +15,7 @@ if(isset($_POST['enter'])){
    $new_member_c_event=$_POST['c_event'];
 
    //Establishing Connection with server by passing server_name, user_id and pass as a patameter
-   $conn = mysqli_connect("localhost", "root", "DnMacBook#!@1");
+   $conn = mysqli_connect("localhost", "[username redacted]", "[password redacted]");
    //Selecting Database
    $db = mysqli_select_db($conn, "loginsystemfbla");
    //sql update statement to update the member's info in the table
