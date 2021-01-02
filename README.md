@@ -14,6 +14,8 @@ update.php is where the member update information page is made and consists of a
 
 updateserv.php is the script that connects to the database and updates the user input into the database and is found in the serv folder.
 
+tablerecord.php is where the database information is outputted in a tabular form
+
 login.css styles login.php.
 
 form.css page styles both insert.php and update.php.
