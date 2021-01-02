@@ -15,7 +15,7 @@ if(isset($_POST['enter'])){
    $member_c_event=$_POST['c_event'];
 
    //Establishing Connection with server by passing server_name, user_id and pass as a patameter
-   $conn = mysqli_connect("localhost", "root", "");
+   $conn = mysqli_connect("localhost", "[username redacted]", "[password redacted]", "[database name redacted]");;
    //Selecting Database
    $db = mysqli_select_db($conn, "loginsystemfbla");
    //sql insert statement to enter the user's input into the table
