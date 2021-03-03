@@ -17,7 +17,7 @@ if(isset($_POST['enter'])){
    //Establishing Connection with server by passing server_name, user_id and pass as a patameter
    $conn = mysqli_connect("localhost", "[username redacted]", "[password redacted]");
    //Selecting Database
-   $db = mysqli_select_db($conn, "loginsystemfbla");
+   $db = mysqli_select_db($conn, "[database name redacted]");
    //sql insert statement to enter the user's input into the table
    $insert = mysqli_query($conn, "INSERT INTO Members VALUES ($member_sid, '$member_l_name', '$member_f_name', $member_grade, '$member_c_event')");
    //sql query to check if the insert statement worked
