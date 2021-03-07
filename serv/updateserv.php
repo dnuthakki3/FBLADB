@@ -19,7 +19,7 @@ if(isset($_POST['enter'])){
    //Selecting Database
    $db = mysqli_select_db($conn, "[database name redacted]");
    //sql update statement to update the member's info in the table
-   $insert = mysqli_query($conn, "UPDATE Members SET l_name = '$new_member_l_name', f_name = '$new_member_f_name', grade = $new_member_grade, c_event = '$new_member_c_event' WHERE sid = $target_member_sid");
+   $update = mysqli_query($conn, "UPDATE Members SET l_name = '$new_member_l_name', f_name = '$new_member_f_name', grade = $new_member_grade, c_event = '$new_member_c_event' WHERE sid = $target_member_sid");
    //sql query to check if the update statement worked
    $validate_update = mysqli_query($conn, "SELECT * FROM Members WHERE sid = $target_member_sid AND l_name ='$new_member_l_name' AND f_name ='$new_member_f_name' AND grade = $new_member_grade AND c_event = '$new_member_c_event'");
    //sees if the query results in any rows being returned
