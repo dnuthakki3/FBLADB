@@ -28,7 +28,7 @@ if(isset($_POST['enter'])){
       if($validate_result == 1){
         $message = "Member information entered successfully";
       }
-      //returns an error if there is an incorrect username or password
+      //returns an error if there is an incorrect field
       else{
         $message = "One of the fields entered is not in the right format, please try again";
       }
